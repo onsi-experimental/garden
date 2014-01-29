@@ -15,11 +15,11 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	"github.com/pivotal-cf-experimental/garden/backend"
-	"github.com/pivotal-cf-experimental/garden/backend/fake_backend"
-	"github.com/pivotal-cf-experimental/garden/message_reader"
-	protocol "github.com/pivotal-cf-experimental/garden/protocol"
-	"github.com/pivotal-cf-experimental/garden/server"
+	"github.com/onsi-experimental/garden/backend"
+	"github.com/onsi-experimental/garden/backend/fake_backend"
+	"github.com/onsi-experimental/garden/message_reader"
+	protocol "github.com/onsi-experimental/garden/protocol"
+	"github.com/onsi-experimental/garden/server"
 )
 
 var _ = Describe("The Warden server", func() {

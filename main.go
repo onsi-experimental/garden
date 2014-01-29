@@ -11,16 +11,16 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/pivotal-cf-experimental/garden/backend"
-	"github.com/pivotal-cf-experimental/garden/backend/fake_backend"
-	"github.com/pivotal-cf-experimental/garden/command_runner"
-	"github.com/pivotal-cf-experimental/garden/linux_backend"
-	"github.com/pivotal-cf-experimental/garden/linux_backend/container_pool"
-	"github.com/pivotal-cf-experimental/garden/linux_backend/network_pool"
-	"github.com/pivotal-cf-experimental/garden/linux_backend/port_pool"
-	"github.com/pivotal-cf-experimental/garden/linux_backend/quota_manager"
-	"github.com/pivotal-cf-experimental/garden/linux_backend/uid_pool"
-	"github.com/pivotal-cf-experimental/garden/server"
+	"github.com/onsi-experimental/garden/backend"
+	"github.com/onsi-experimental/garden/backend/fake_backend"
+	"github.com/onsi-experimental/garden/command_runner"
+	"github.com/onsi-experimental/garden/linux_backend"
+	"github.com/onsi-experimental/garden/linux_backend/container_pool"
+	"github.com/onsi-experimental/garden/linux_backend/network_pool"
+	"github.com/onsi-experimental/garden/linux_backend/port_pool"
+	"github.com/onsi-experimental/garden/linux_backend/quota_manager"
+	"github.com/onsi-experimental/garden/linux_backend/uid_pool"
+	"github.com/onsi-experimental/garden/server"
 )
 
 var listenNetwork = flag.String(

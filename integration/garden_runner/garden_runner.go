@@ -63,7 +63,7 @@ func (r *GardenRunner) Prepare() error {
 	}
 
 	if r.Remote == "" {
-		compiled, err := cmdtest.Build("github.com/pivotal-cf-experimental/garden")
+		compiled, err := cmdtest.Build("github.com/onsi-experimental/garden")
 		if err != nil {
 			return err
 		}

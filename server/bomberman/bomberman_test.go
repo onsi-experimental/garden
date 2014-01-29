@@ -4,9 +4,9 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	"github.com/pivotal-cf-experimental/garden/backend"
-	"github.com/pivotal-cf-experimental/garden/backend/fake_backend"
-	"github.com/pivotal-cf-experimental/garden/server/bomberman"
+	"github.com/onsi-experimental/garden/backend"
+	"github.com/onsi-experimental/garden/backend/fake_backend"
+	"github.com/onsi-experimental/garden/server/bomberman"
 	"time"
 )
 

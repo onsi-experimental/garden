@@ -9,8 +9,8 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	"github.com/pivotal-cf-experimental/garden/message_reader"
-	protocol "github.com/pivotal-cf-experimental/garden/protocol"
+	"github.com/onsi-experimental/garden/message_reader"
+	protocol "github.com/onsi-experimental/garden/protocol"
 )
 
 var _ = Describe("Reading request messages over the wire", func() {

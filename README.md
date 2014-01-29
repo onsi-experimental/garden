@@ -18,8 +18,8 @@
 
 Warden in Go, because why not.
 
-* [![Build Status](https://travis-ci.org/pivotal-cf-experimental/garden.png?branch=master)](https://travis-ci.org/pivotal-cf-experimental/garden)
-* [![Coverage Status](https://coveralls.io/repos/pivotal-cf-experimental/garden/badge.png?branch=HEAD)](https://coveralls.io/r/pivotal-cf-experimental/garden?branch=HEAD)
+* [![Build Status](https://travis-ci.org/onsi-experimental/garden.png?branch=master)](https://travis-ci.org/onsi-experimental/garden)
+* [![Coverage Status](https://coveralls.io/repos/onsi-experimental/garden/badge.png?branch=HEAD)](https://coveralls.io/r/onsi-experimental/garden?branch=HEAD)
 * [Tracker](https://www.pivotaltracker.com/s/projects/962374)
 * [Warden](https://github.com/cloudfoundry/warden)
 

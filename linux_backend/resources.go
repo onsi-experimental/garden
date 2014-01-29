@@ -3,7 +3,7 @@ package linux_backend
 import (
 	"sync"
 
-	"github.com/pivotal-cf-experimental/garden/linux_backend/network"
+	"github.com/onsi-experimental/garden/linux_backend/network"
 )
 
 type Resources struct {

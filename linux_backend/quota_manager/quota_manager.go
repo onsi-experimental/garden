@@ -8,8 +8,8 @@ import (
 	"path"
 	"strings"
 
-	"github.com/pivotal-cf-experimental/garden/backend"
-	"github.com/pivotal-cf-experimental/garden/command_runner"
+	"github.com/onsi-experimental/garden/backend"
+	"github.com/onsi-experimental/garden/command_runner"
 )
 
 type QuotaManager interface {

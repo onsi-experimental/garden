@@ -3,8 +3,8 @@ package linux_backend
 import (
 	"time"
 
-	"github.com/pivotal-cf-experimental/garden/backend"
-	"github.com/pivotal-cf-experimental/garden/linux_backend/network"
+	"github.com/onsi-experimental/garden/backend"
+	"github.com/onsi-experimental/garden/linux_backend/network"
 )
 
 type ContainerSnapshot struct {

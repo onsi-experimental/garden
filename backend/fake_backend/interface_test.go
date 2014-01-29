@@ -3,7 +3,7 @@ package fake_backend
 import (
 	"testing"
 
-	"github.com/pivotal-cf-experimental/garden/backend"
+	"github.com/onsi-experimental/garden/backend"
 )
 
 func FunctionTakingBackend(backend.Backend) {

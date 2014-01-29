@@ -1,7 +1,7 @@
 package fake_bandwidth_manager
 
 import (
-	"github.com/pivotal-cf-experimental/garden/backend"
+	"github.com/onsi-experimental/garden/backend"
 )
 
 type FakeBandwidthManager struct {

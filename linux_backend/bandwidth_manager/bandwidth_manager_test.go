@@ -8,10 +8,10 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	"github.com/pivotal-cf-experimental/garden/backend"
-	"github.com/pivotal-cf-experimental/garden/command_runner/fake_command_runner"
-	. "github.com/pivotal-cf-experimental/garden/command_runner/fake_command_runner/matchers"
-	"github.com/pivotal-cf-experimental/garden/linux_backend/bandwidth_manager"
+	"github.com/onsi-experimental/garden/backend"
+	"github.com/onsi-experimental/garden/command_runner/fake_command_runner"
+	. "github.com/onsi-experimental/garden/command_runner/fake_command_runner/matchers"
+	"github.com/onsi-experimental/garden/linux_backend/bandwidth_manager"
 )
 
 var fakeRunner *fake_command_runner.FakeCommandRunner

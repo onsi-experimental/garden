@@ -8,8 +8,8 @@ import (
 	"regexp"
 	"strconv"
 
-	"github.com/pivotal-cf-experimental/garden/backend"
-	"github.com/pivotal-cf-experimental/garden/command_runner"
+	"github.com/onsi-experimental/garden/backend"
+	"github.com/onsi-experimental/garden/command_runner"
 )
 
 var IN_RATE_PATTERN = regexp.MustCompile(`qdisc tbf [0-9a-f]+: root refcnt \d+ rate (\d+)([KMG]?)bit burst (\d+)([KMG]?)b`)
